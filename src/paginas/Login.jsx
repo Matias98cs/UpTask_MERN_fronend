@@ -42,7 +42,7 @@ const Login = () => {
     const { msg } = alerta
     return (
         <>
-            <h1 className="text-sky-600 font-black text-6xl capitalize">Iniciar sesion y administra tus {' '} <span className="text-slate-700">proyectos</span></h1>
+            <h1 className="text-sky-600 font-black text-6xl capitalize">Inicia sesion y administra tus {' '} <span className="text-slate-700">proyectos</span></h1>
 
             {msg && <Alerta alerta={alerta} />}
             <form onSubmit={handleSubmit} className="my-10 bg-white shadow rounded-lg p-10">
