@@ -27,10 +27,8 @@ const AuthProvider = ({ children }) => {
                 setAuth(data)
             } catch (error) {
                 setAuth({})
-            } finally {
-                setCargando(false)
-
             }
+            setCargando(false)
         }
         autenticarUsuario()
     }, [])
